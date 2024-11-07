@@ -11,8 +11,10 @@
 8. docker rm mysql-latest (To delete container. Note: first stop the container before deleting it)
 9. docker inspect mysql-latest (To get the information about container)
 10. docker logs mysql-latest (To check the logs of the container)
-11. docker exec -it mysql-latest mysql -u root -p (To access the MySQL server inside a Docker container, you can use the following command)
+11. docker exec -it mysql-latest mysql -u root -p (To access the MySQL server inside a Docker container, you can use the following command. Use Ctrl + D to come outside mysql script window)
     docker exec -it: This command allows you to run a command inside a running container. The -it flags provide an interactive terminal session.
     <container_name>: Replace this with the name of your MySQL container. You can find the name using docker ps.
     mysql -u root -p: This command starts the MySQL client. You'll be prompted for the root password you set when creating the container.
-12. 
+12. docker rmi <image name> (To delete images)
+13. docker system prune -a (delete each and everything)
+14. 
