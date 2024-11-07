@@ -1,4 +1,4 @@
-# docker
+# Docker
 
 1. docker pull mysql (Pull mysql latest image from docker hub)   
    docker pull mysql:9.1.0 (Pull mysql 9.1.0 image from docker hub)
