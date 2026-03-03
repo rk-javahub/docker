@@ -18,3 +18,4 @@
 12. docker rmi <image name> (To delete images)
 13. docker system prune -a (delete each and everything)
 14. docker login (For login to docker)
+15. docker push <image-name> (Push image to dockerhub)
