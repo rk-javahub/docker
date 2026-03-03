@@ -17,4 +17,4 @@
     mysql -u root -p: This command starts the MySQL client. You'll be prompted for the root password you set when creating the container.
 12. docker rmi <image name> (To delete images)
 13. docker system prune -a (delete each and everything)
-14. 
+14. docker login (For login to docker)
